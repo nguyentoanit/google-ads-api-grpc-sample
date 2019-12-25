@@ -1,0 +1,13 @@
+{
+  "name": "toannguyen/php-grpc-google",
+  "require": {
+    "guzzlehttp/guzzle": "^6.5",
+    "google/protobuf": "^3.11"
+  },
+  "autoload": {
+    "classmap": [
+      "Google/",
+      "GPBMetadata/"
+    ]
+  }
+}
